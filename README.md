@@ -9,3 +9,4 @@ Open-Preview -- Option-Shift-Command-G
 
 Open-Safari -- Control-Option-Command-G
 
+Open-Anki -- Control-Option-Shift-Command-Space
