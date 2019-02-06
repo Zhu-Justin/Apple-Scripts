@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}			tell application "System Preferences"		launch		reveal anchor "Seeing_Display" of pane id "com.apple.preference.universalaccess"	end tell	tell application "System Events" to tell process "System Preferences"		delay 1		click checkbox "Use grayscale" of window "Accessibility"	end tell	tell application "System Preferences" to if it is running then quit	return			return inputend run</string>
+					<string>on run {input, parameters}		tell application "System Preferences"		launch		reveal anchor "Seeing_Display" of pane id "com.apple.preference.universalaccess"	end tell	tell application "System Events" to tell process "System Preferences"		delay 1		click checkbox "Use grayscale" of window "Accessibility"	end tell	tell application "System Preferences" to if it is running then quit	return		return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
