@@ -1,0 +1,13 @@
+on run {input, parameters}
+	
+	tell application "Finder" 
+			make new Finder window
+		activate
+	end tell
+	tell application "System Events"
+		keystroke "w" using {command down} 
+				keystroke "g" using {command down, option down, control down}
+	end tell
+	
+	return input
+end run
