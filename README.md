@@ -11,7 +11,7 @@ This is saved under `~/Library/Services`
 
 `Open-Safari` -- Control-Option-Command-G
 
-'Open-Anki' -- Control-Option-Shift-Command-Space
+`Open-Anki` -- Control-Option-Shift-Command-Space
 
 ## Karabiner Keybindings
 This is saved under `~/.config/karabiner`
