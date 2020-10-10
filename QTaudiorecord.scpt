@@ -1,4 +1,4 @@
  tell application "QuickTime Player"
      activate
-     start (new screen recording)
+     start (new audio recording)
  end tell
