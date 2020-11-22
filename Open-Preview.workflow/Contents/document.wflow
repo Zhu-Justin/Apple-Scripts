@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}		tell application "System Events"		set names to name of application processes		if names contains "Preview" then			tell application process "Preview"				if visible then					set visible to false					set visible to true					tell application "Preview" to activate				else					# use the following to simply have it reappear:					set visible to false					set visible to true					# use the following to focus Typora:					tell application "Preview" to activate				end if			end tell		else			tell application "Preview" to activate		end if	end tell		return inputend run</string>
+					<string>on run {input, parameters}		tell application "System Events"		set names to name of application processes		if names contains "Preview" then			tell application process "Preview"				if visible then					tell application "Preview" to activate				else					# use the following to simply have it reappear:					tell application "Preview" to activate				end if			end tell		else			tell application "Preview" to activate		end if	end tell		return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
